@@ -1,0 +1,16 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/colors' as *;
+
+.heroText {
+    &__container {
+        padding: 4rem 2rem;     
+        background-color: #d7e1e6c8;      
+        @include desktop {
+            grid-row: 1;
+            z-index: 2;
+            width: 100%;            
+        }
+    }
+}
