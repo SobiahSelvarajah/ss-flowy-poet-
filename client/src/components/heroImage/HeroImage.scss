@@ -1,0 +1,13 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/colors' as *;
+
+.heroImage {
+    &__container {
+        display: none;
+        @include desktop {
+            display: block;
+        }
+    }
+}

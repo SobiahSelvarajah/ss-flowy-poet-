@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../../assets/images/hero.jpg'
+import HeroImage from '../heroImage/HeroImage'
 import './Hero.scss'
 
 const Hero = () => {
@@ -16,9 +16,7 @@ const Hero = () => {
                     </section>
                 </div>
             </div>
-            <div className='hero__imageContainer'>
-                <img className='hero__image' src={HeroImage} alt='hero'/>
-            </div>
+            <HeroImage/>
         </section>   
     </div>
   )

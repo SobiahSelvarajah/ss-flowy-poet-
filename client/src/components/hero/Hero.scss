@@ -35,10 +35,4 @@
             width: 100%;            
         }
     }
-    &__imageContainer {
-        display: none;
-        @include desktop {
-            display: block;
-        }
-    }
 }
