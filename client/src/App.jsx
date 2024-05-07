@@ -7,7 +7,7 @@ import Dictionary from './pages/dictionary/Dictionary'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
       <Routes>
         <Route index element={<Homepage/>}/>
         <Route path='about' element={<About/>}/>
